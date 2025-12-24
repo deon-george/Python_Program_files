@@ -1,11 +1,14 @@
-# Read number of students in three classes
+print('enter the value of a')
 a = int(input())
+print('enter the value of b')
 b = int(input())
+print('enter the value of c')
 c = int(input())
+if (a+b+c) % 2 == 0 :
+ desks=(a+b+c)//2
+else :
+ desks=(a+b+c)//2 +1
+ 
 
-# Calculate desks needed
-desks = (a + 1) // 2 + (b + 1) // 2 + (c + 1) // 2
-
-# Print the result
-print(desks)
+print('the total number of desks=',desks)
 
