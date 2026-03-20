@@ -15,6 +15,6 @@ if not (1 <= c <= 8 and 1 <= d <= 8):
     exit()
 
 if (a-b)%2 == 0 and (c-d)%2 != 0 or (a-b)%2 != 0 and (c-d)%2 == 0:
-    print('Queen movt is not possible')
+    print('Horse movt is possible')
 else:
-  print('Queen movt is  possible')
+  print('Horse movt is not  possible')
