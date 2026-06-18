@@ -54,4 +54,32 @@ else:
   print('string is not pallindrome')
 
 
- 
+#In the eighth line, print every second character of the string in reverse order, starting from the last one.
+string8 = input('enter the string8=')
+length8 = len(string8)
+for i in range (length8-1,0,-1):
+    print(string8[i],end=" ")
+print()
+
+
+#In the ninth line, print the length of the given string.
+string9 = input('enter the string9=')
+count = 0
+for ch in string9:
+  count +=1
+print(count)
+
+#to count the length of a number
+string9 = input('enter the string9=')
+number9 = int(string9)
+count = 0
+while number9 > 0:
+    number9 = number9 //  10
+    count += 1 
+print(count)
+
+#myStyle code 
+number = int(input('enter the number10:'))
+string10 = str(number)
+l = len(string10)
+print('length=',l)
